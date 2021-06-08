@@ -1,0 +1,38 @@
+{
+  "VTI": {
+    "assetType": "Stock ETF",
+    "note": "+1x",
+    "ticker": "VTI",
+    "price": 219.57,
+    "quantity": 300
+  },
+  "TLT": {
+    "assetType": "Fixed Income ETF",
+    "note": "+1x",
+    "ticker": "TLT",
+    "price": 140.32,
+    "quantity": 500
+  },
+  "IEI": {
+    "assetType": "Fixed Income ETF",
+    "note": "+1x",
+    "ticker": "IEI",
+    "price": 130.96,
+    "quantity": 200
+  },
+  "GSG": {
+    "assetType": "Commodity ETF",
+    "note": "+1x",
+    "ticker": "GSG",
+    "price": 15.79,
+    "quantity": 1000
+  },
+  "GLD": {
+    "assetType": "Commodity ETF",
+    "note": "+1x",
+    "ticker": "GLD",
+    "price": 176.55,
+    "quantity": 85
+  },
+  "CASHX": { "assetType": "Cash", "note": "N/A", "ticker": "CASHX", "price": 1, "quantity": 10 }
+}

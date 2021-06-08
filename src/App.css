@@ -1,38 +1,99 @@
-.App {
+@import url("https://fonts.googleapis.com/css?family=Mina|Open+Sans");
+
+a {
+  text-decoration: none;
+}
+
+button {
+  margin: 10px auto 30px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #0a0;
+  width: 25%;
+  min-width: 80px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+em {
+  font-size: 12px;
+}
+
+h1 {
+  font-family: "Mina", sans-serif;
+  font-size: 36px;
+}
+
+h2 {
+  font-family: "Mina", sans-serif;
+
+  font-size: 18px;
+}
+
+input[type="number"] {
+  width: 70px;
+}
+
+span {
+  font-size: 14px;
+}
+
+td,
+th {
+  padding: 10px;
+  border: solid 1px #fff;
+  border-radius: 5px;
+}
+
+th {
+  font-size: 14px;
+}
+td {
+  font-size: 12px;
+}
+
+table {
+  background-color: #eef;
+  border-radius: 10px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left {
+  margin-left: initial;
+  margin-right: auto;
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mina {
+  font-family: "Mina", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.plain {
+  font-weight: normal;
 }
 
-.App-link {
-  color: #61dafb;
+#add-asset {
+  background-color: #00aa0080;
+  color: #000;
+  font-size: 12px;
+  border-radius: 20px;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#offset-table {
+  background-color: #aaf;
+}
+
+#offset-table input {
+  width: 40px;
+}
+
+#resource {
+  width: 40%;
+  padding: 20px;
 }
